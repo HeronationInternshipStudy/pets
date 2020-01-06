@@ -130,8 +130,7 @@ public class CatalogActivity extends AppCompatActivity {
                         currentWeight));
             }
         } finally {
-            // Always close the cursor when you're done reading from it. This releases all its
-            // resources and makes it invalid.
+
             cursor.close();
         }
     }
